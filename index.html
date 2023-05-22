@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Bootstrap Example</title>
+	<title>Безупречная улыбка</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -42,7 +42,7 @@
 	</nav>
 
 	<!-- Header -->
-	<header class="bg-primary rounded-bottom p-3" style="margin-top: 40px; height: 120px;">
+	<header class="bg-primary" style="margin-top: 40px; height: 120px;">
 		<div class="container d-flex justify-content-between align-items-center">
 			<div class="d-flex align-items-center">
 				<img src="img/logo.png" alt="logo" height="70">
@@ -57,51 +57,51 @@
 
 
 	<main>
-		<section>
-			<img src="">
-		<div>
-			<p>
-				Одержимы здоровьем вашей улыбки! Cтоматология, на которую можно положиться!
-			</p>
-		</div>
+		<section class="d-flex align-items-center" style="background-image: url('lib/header.png'); height: 900px;">
+			<div class="opacity_div">
+				<p class="header_text">
+					Одержимы здоровьем вашей улыбки! Cтоматология, на которую можно положиться!
+				</p>
+			</div>
 		</section>
 
-		<section>
-			<h2>Информация</h2>
-				<div class="card_my">
-					<h3>Запись на консультацию</h3>
-					<input type="text" name="" placeholder="Ваше имя:">
-					<input type="" name="" placeholder="Телефон:">
-					<input type="phone" name="" placeholder="E-mail:">
-					<input type="email" name="" placeholder="Вопрос/проблема:">
-					<div>
-						<p>Удобное время для звонка:</p>
-						<input type="time" name="">
-					</div>
-					<a href="" class="btn">Записаться</a>
-				</div>
 
+		<section style="padding-top: 100px; background: linear-gradient(180deg, #70B8F1 0%, #87C0ED 100%);">
+			<div class="container text-center" style="margin-bottom: 50px;">
+				<h2>Информация</h2>
+			</div>
+			<div class="d-flex justify-content-around">
+				<div class="card_my d-flex flex-column">
+					<h3>Запись на консультацию</h3>
+					<input type="name" name="" placeholder="Ваше имя:" style="margin-bottom: 30px;">
+					<input type="" name="" placeholder="Телефон:" style="margin-bottom: 10px;">
+					<input type="phone" name="" placeholder="E-mail:" style="margin-bottom: 30px;">
+					<input type="email" name="" placeholder="Вопрос/проблема:" style="margin-bottom: 30px; padding-bottom: 100px; padding-top: 20px;">
+					<div class="d-flex" style="margin-bottom: 25px;">
+						<p style="font-size: 16px; padding-right: 30px;">Удобное время для звонка:</p>
+						<input type="time" name="" style="width: 60px; font-size: 18px;">
+					</div>
+					<a href="" class="bttn" style="margin-left: 160px;">Записаться</a>
+				</div>
 				<div class="card_my">
 					<h3>Консультолог</h3>
-					<img src="">
-					<p class="fio">Анатолий Олегович Крафт</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis mi ac orci eleifend aliquam. Pellentesque ullamcorper pulvinar luctus. Nam mi lorem, gravida a tortor id, convallis dignissim neque. Morbi eu erat odio</p>
+					<img src="lib/avatar/vin.jpeg" class="avatar" style="margin-bottom: 20px;">
+					<p class="fio" style="width: 230px;font-size: 24px; text-align: center;">Анатолий Олегович Крафт</p>
+					<p style="font-size: 22px; margin-left: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis mi ac orci eleifend aliquam. Pellentesque ullamcorper pulvinar luctus. Nam mi lorem, gravida a tortor id, convallis dignissim neque. Morbi eu erat odio</p>
 				</div>
-
 				<div class="card_my">
 					<h3>Часто задаваемые вопросы</h3>
 					<div>
 						<div>
-						<p>Как часто нужно посещать стоматолога?</p>
-						<div></div>
-					</div>
+							<p>Как часто нужно посещать стоматолога?</p>
+							<div></div>
+						</div>
 					</div>
 					<div></div>
 					<div></div>
 					<div></div>
 					<div></div>
 				</div>
-
 				<div class="card_my">
 					<h3>Обратная связь</h3>
 					<input type="" name="" placeholder="Ваше имя:">
@@ -109,17 +109,27 @@
 					<input type="" name="" placeholder="Введите ваш вопрос">
 					<div>
 						<p>Телефон:<br>
-8 922 736-18-92</p>
-<a class="btn" href="">Отправить</a>
+						8 922 736-18-92</p>
+						<a class="btn" href="">Отправить</a>
 					</div>
 				</div>
+			</div>
 		</section>
 
 		<section>
 			<h2>Наши специалисты</h2>
-			<div class="card_doctors"></div>
-			<div class="card_doctors"></div>
-			<div class="card_doctors"></div>
+			<div class="card_doctors">
+				<img src="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis mi ac orci eleifend aliquam. Pellentesque ullamcorper pulvinar luctus. Nam mi lorem, gravida a tortor id, convallis dignissim neque. Morbi eu erat odio. Nullam lacinia sit amet velit ut semper. Mauris tellus augue, posuere non facilisis ac, varius ac ex. Ut eu lobortis metus, ut viverra erat</p>
+			</div>
+			<div class="card_doctors">
+				<img src="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis mi ac orci eleifend aliquam. Pellentesque ullamcorper pulvinar luctus. Nam mi lorem, gravida a tortor id, convallis dignissim neque. Morbi eu erat odio. Nullam lacinia sit amet velit ut semper. Mauris tellus augue, posuere non facilisis ac, varius ac ex. Ut eu lobortis metus, ut viverra erat</p>
+			</div>
+			<div class="card_doctors">
+				<img src="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis mi ac orci eleifend aliquam. Pellentesque ullamcorper pulvinar luctus. Nam mi lorem, gravida a tortor id, convallis dignissim neque. Morbi eu erat odio. Nullam lacinia sit amet velit ut semper. Mauris tellus augue, posuere non facilisis ac, varius ac ex. Ut eu lobortis metus, ut viverra erat</p>
+			</div>
 		</section>
 	</main>
 
