@@ -68,3 +68,22 @@ input{
    height: 96px;
    border-radius: 64px;
 }
+.triangle-link {
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #f00;
+  text-decoration: none;
+}
+
+.triangle-link:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  transform: translateY(-50%);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #f00;
+}
