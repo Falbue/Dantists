@@ -13,25 +13,27 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #0D4775; height: 40px;">
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<ul class="navbar-nav ml-auto" style="margin-left: 180px; margin-right: 180px;">
-				<li class="nav-item active">
-					<a class="nav-link" href="#" >Главная<span class="sr-only"></span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#" >Консультация</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#" >Контакты</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#" >Наши специалисты</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#" >Запись на приём</a>
-				</li>
+			<ul class="navbar-nav ml-auto d-flex justify-content-between" style="margin-left: 180px; margin-right: 180px; width: 100%;">
+				<div class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#" >Главная<span class="sr-only"></span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="consultation.html" >Консультация</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacts.html" >Контакты</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="specialists.html" >Наши специалисты</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="vizit.html" >Запись на приём</a>
+					</li>
+				</div>
 				<div class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#" >Войти</a>
+						<a class="nav-link" href="sign.html" >Войти</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#" >Карта сайта</a>
@@ -43,14 +45,14 @@
 
 	<!-- Header -->
 	<header class="bg-primary" style="margin-top: 40px; height: 120px;">
-		<div class="container d-flex justify-content-between align-items-center">
-			<div class="d-flex align-items-center">
-				<img src="img/logo.png" alt="logo" height="70">
-				<h1 class="text-light ml-3 mb-0 font-weight-bold">Безупречная улыбка</h1>
+		<div class="d-flex justify-content-between align-items-center">
+			<div class="d-flex justify-content-between align-items-center" style="height: 120px; margin-left: 180px; width: 550px;">
+				<img src="lib/icon/logo.png" alt="logo" height="100">
+				<h1 class="text-light font-weight-bold" style="height: 48px;">Безупречная улыбка</h1>
 			</div>
-			<div>
-				<button class="btn btn-success rounded-pill px-4 mr-2">Войти</button>
-				<button class="btn bg-success rounded-pill px-4 mr-2">Регистрация</button>
+			<div style="margin-right: 180px; width: 350px;" class="d-flex justify-content-between">
+				<a class="bttn_head" href="">Войти</a>
+				<a class="bttn_head" href="">Регистрация</a>
 			</div>
 		</div>
 	</header>
@@ -66,17 +68,17 @@
 		</section>
 
 
-		<section style="padding-top: 100px; background: linear-gradient(180deg, #70B8F1 0%, #87C0ED 100%);">
-			<div class="container text-center" style="margin-bottom: 50px;">
+		<section style="padding-top: 100px; height: 1000px; background: linear-gradient(180deg, #70B8F1 0%, #87C0ED 100%);">
+			<div class="container text-cenБезупречная улыбкаter" style="margin-bottom: 50px;">
 				<h2>Информация</h2>
 			</div>
 			<div class="d-flex justify-content-around">
 				<div class="card_my d-flex flex-column">
 					<h3>Запись на консультацию</h3>
 					<input type="name" name="" placeholder="Ваше имя:" style="margin-bottom: 30px;">
-					<input type="" name="" placeholder="Телефон:" style="margin-bottom: 10px;">
-					<input type="phone" name="" placeholder="E-mail:" style="margin-bottom: 30px;">
-					<input type="email" name="" placeholder="Вопрос/проблема:" style="margin-bottom: 30px; padding-bottom: 100px; padding-top: 20px;">
+					<input type="phone" name="" placeholder="Телефон:" style="margin-bottom: 10px;">
+					<input type="emai" name="" placeholder="E-mail:" style="margin-bottom: 30px;">
+					<input type="text" name="" placeholder="Вопрос/проблема:" style="margin-bottom: 30px; padding-bottom: 100px; padding-top: 20px;">
 					<div class="d-flex" style="margin-bottom: 25px;">
 						<p style="font-size: 16px; padding-right: 30px;">Удобное время для звонка:</p>
 						<input type="time" name="" style="width: 60px; font-size: 18px;">
@@ -85,51 +87,89 @@
 				</div>
 				<div class="card_my">
 					<h3>Консультолог</h3>
-					<img src="lib/avatar/vin.jpeg" class="avatar" style="margin-bottom: 20px;">
-					<p class="fio" style="width: 230px;font-size: 24px; text-align: center;">Анатолий Олегович Крафт</p>
-					<p style="font-size: 22px; margin-left: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis mi ac orci eleifend aliquam. Pellentesque ullamcorper pulvinar luctus. Nam mi lorem, gravida a tortor id, convallis dignissim neque. Morbi eu erat odio</p>
+					<img src="lib/avatar/vin.jpg" class="avatar" style="margin-bottom: 20px;">
+					<p class="fio" style="">Анатолий Олегович Крафт</p>
+					<p style="font-size: 22px; margin-left: 20px;">опытный и квалифицированный консультолог, который поможет найти решение любой проблемы. Он обладает широким спектром знаний в области консультирования и разработки стратегий</p>
 				</div>
 				<div class="card_my">
 					<h3>Часто задаваемые вопросы</h3>
-					<div>
-						<div>
-							<p>Как часто нужно посещать стоматолога?</p>
+					<div style="width: 300px;">
+						<div class="d-flex justify-content-between align-items-center">
+							<p class="quest">Как часто нужно посещать стоматолога?</p>
 							<a href="#" class="triangle-link"></a>
-							<div></div>
+						</div>
+						<div class="line"></div>
+
+						<div class="d-flex justify-content-between align-items-center">
+							<p class="quest">Вредны ли отбеливающие зубные пасты?</p>
+							<a href="#" class="triangle-link"></a>
+						</div>
+						<div class="line"></div>
+
+						<div class="d-flex justify-content-between align-items-center">
+							<p class="quest">Как правильно чистить зубы?</p>
+							<a href="#" class="triangle-link"></a>
+						</div>
+						<div class="line"></div>
+
+						<div class="d-flex justify-content-between align-items-center">
+							<p class="quest">Как избежать запаха изо рта?</p>
+							<a href="#" class="triangle-link"></a>
+						</div>
+						<div class="line"></div>
+
+						<div class="d-flex justify-content-between align-items-center">
+							<p class="quest">Как избежать кариеса?</p>
+							<a href="#" class="triangle-link"></a>
 						</div>
 					</div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
 				</div>
 				<div class="card_my">
 					<h3>Обратная связь</h3>
-					<input type="" name="" placeholder="Ваше имя:">
-					<input type="email" name="" placeholder="E-mail:">
-					<input type="" name="" placeholder="Введите ваш вопрос">
-					<div>
+					<input type="name" name="" placeholder="Ваше имя:" style="margin-bottom: 20px;">
+					<input type="email" name="" placeholder="E-mail:" style="margin-bottom: 40px;">
+					<input type="" name="" placeholder="Введите ваш вопрос"style="margin-bottom: 50px; padding-bottom: 200px; padding-top: 20px;">
+					<div class="d-flex justify-content-between align-items-center" style="width: 280px;">
 						<p>Телефон:<br>
 						8 922 736-18-92</p>
-						<a class="btn" href="">Отправить</a>
+						<a class="bttn" href="">Отправить</a>
 					</div>
 				</div>
 			</div>
+			<div class="d-flex justify-content-around" style="margin-top: 50px;">
+				<img src="lib/icon/teeth.png" style="width: 80px;">
+				<img src="lib/icon/teeth.png" style="width: 80px;">
+				<img src="lib/icon/teeth.png" style="width: 80px;">
+				<img src="lib/icon/teeth.png" style="width: 80px;">
+				<img src="lib/icon/teeth.png" style="width: 80px;">
+				<img src="lib/icon/teeth.png" style="width: 80px;">
+				<img src="lib/icon/teeth.png" style="width: 80px;">
+				<img src="lib/icon/teeth.png" style="width: 80px;">
+			</div>
 		</section>
 
-		<section>
-			<h2>Наши специалисты</h2>
-			<div class="card_doctors">
-				<img src="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis mi ac orci eleifend aliquam. Pellentesque ullamcorper pulvinar luctus. Nam mi lorem, gravida a tortor id, convallis dignissim neque. Morbi eu erat odio. Nullam lacinia sit amet velit ut semper. Mauris tellus augue, posuere non facilisis ac, varius ac ex. Ut eu lobortis metus, ut viverra erat</p>
+		<section style="padding-top: 100px;background: linear-gradient(180deg, #3FA1EF 0%, #6CACDF 100%);">
+			<div class="container text-center" style="margin-bottom: 50px;">
+				<h2>Наши специалисты</h2>
 			</div>
-			<div class="card_doctors">
-				<img src="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis mi ac orci eleifend aliquam. Pellentesque ullamcorper pulvinar luctus. Nam mi lorem, gravida a tortor id, convallis dignissim neque. Morbi eu erat odio. Nullam lacinia sit amet velit ut semper. Mauris tellus augue, posuere non facilisis ac, varius ac ex. Ut eu lobortis metus, ut viverra erat</p>
-			</div>
-			<div class="card_doctors">
-				<img src="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis mi ac orci eleifend aliquam. Pellentesque ullamcorper pulvinar luctus. Nam mi lorem, gravida a tortor id, convallis dignissim neque. Morbi eu erat odio. Nullam lacinia sit amet velit ut semper. Mauris tellus augue, posuere non facilisis ac, varius ac ex. Ut eu lobortis metus, ut viverra erat</p>
+			<div class="d-flex justify-content-around">
+				<div class="card_doctors d-flex flex-column align-items-center" style="width: 400px;">
+					<img src="lib/avatar/1.png" class="avatar" style="margin-bottom: 40px;">
+					<p class="fio" style="color: white; font-size: 24px;">Денис Анатольевич Горич</p>
+					<p style="font-size: 20px; text-align: justify; color: white;">Профессиональный стоматолог с многолетним опытом работы. Его основной приоритет - сохранить здоровье зубов каждого пациента и помочь им достичь красивой и здоровой улыбки<br><br>
+						Свою работу Денис Анатольевич осуществляет на высшем уровне, используя самые современные методы лечения и диагностики заболеваний полости рта. Он постоянно учится и совершенствуется, чтобы быть в курсе последних тенденций в области стоматологии
+					</p>
+				</div>
+				<div class="card_doctors d-flex flex-column align-items-center" style="width: 400px;">
+					<img src="lib/avatar/2.png" class="avatar" style="margin-bottom: 40px;">
+					<p class="fio" style="color: white; font-size: 24px;">Юлия Викторовна Черепанова</p>
+					<p style="font-size: 20px; text-align: justify; color: white;"> Опытный стоматолог с профессиональным подходом к своей работе. Она обладает широким спектром знаний и навыков в области стоматологии, включая ортодонтические процедуры, лечение кариеса, имплантацию зубов и другие виды стоматологических процедур. Лечение в ее кабинете – это передовые технологии, качественные материалы и индивидуальный подход к каждому пациенту </p>
+				</div>
+				<div class="card_doctors d-flex flex-column align-items-center" style="width: 400px;">
+					<img src="lib/avatar/3.png" class="avatar" style="margin-bottom: 40px;">
+					<p class="fio" style="color: white; font-size: 24px;">Олег Владимирович Дэнк</p>
+					<p style="font-size: 20px; text-align: justify; color: white;">Опытный стоматолог с высшим медицинским образованием и многолетней практикой работы. Он заботится о здоровье зубов и полости рта своих пациентов, стремится к постоянному совершенствованию своих профессиональных навыков и использованию самых современных технологий в стоматологической практике. Доктор высокой квалификации, который поможет сохранить здоровье и красоту вашей улыбки!</p>
+				</div>
 			</div>
 		</section>
 	</main>
